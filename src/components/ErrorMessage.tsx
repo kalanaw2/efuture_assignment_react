@@ -1,6 +1,5 @@
 interface ErrorMessageProps {
-  message: string;
-  onRetry?: () => void;
+  message: string
 }
 
 export default function ErrorMessage({ message }: ErrorMessageProps) {
